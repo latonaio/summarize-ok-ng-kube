@@ -1,0 +1,24 @@
+{
+  "work_ng": {
+    "description": "Without work",
+    "command": "78",
+    "arrayNo": 2701,
+    "elementNo": "01",
+    "processNo": "10",
+    "property": {
+      "IO": 1
+    },
+    "expire_time": 1000
+  },
+  "work_ok": {
+    "description": "With work",
+    "command": "78",
+    "arrayNo": 2701,
+    "elementNo": "01",
+    "processNo": "10",
+    "property": {
+      "IO": 0
+    },
+    "expire_time": 1000
+  }
+}
