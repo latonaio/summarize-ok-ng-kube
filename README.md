@@ -1,18 +1,12 @@
-summarize-ok-ng
-====
+# summarize-ok-ng-kube
+summarize-ok-ng-kubeは、主にエッジコンピューティング環境においてテンプレートマッチングした結果がOKかNGかを返すマイクロサービスです。
 
-Overview - summarize sewing machine assist result
+## 動作環境  
+summarize-ok-ng-kube は、Kubernetes および AION 上での動作を前提としています。   
+以下の環境が必要となります。  
+・OS: Linux OS  
+・CPU: ARM/AMD/Intel  
+・Kubernetes  
+・AION  
 
-## Description
-* ミシンAIが判定した以下の結果を集約して、異常をロボットに連携する
-    * ワーク有無
-        * 連続 x秒 ワーク未検出時に異常を出力する
-    * 溝の有無(未実装)
-    * 縫製結果(未実装)
-* セッション毎に判定結果をリセットする
 
-## Requirement
-
-## Usage
-
-## Install
